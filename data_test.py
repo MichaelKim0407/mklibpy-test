@@ -10,7 +10,7 @@ class A(mklibpy.data.obj.DataObject):
         return self.x ** 2 + self.y ** 2 + self.z ** 2
 
 
-data = mklibpy.data.load_files(".", ".txt", data1=("A", A))
+data = mklibpy.data.load_files(".", ".in", data_test=("A", A))
 
 print(data)
 print(data.A)
