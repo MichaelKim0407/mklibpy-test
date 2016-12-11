@@ -1,6 +1,6 @@
+from mklibpy.code import *
 from mklibpy.common.collection import *
 from mklibpy.util.collection import format_dict_multiline
-from mklibpy.code import *
 
 __author__ = 'Michael'
 
